@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/deng00/go-base/logging"
+	"github.com/CoinSummer/go-base/logging"
 	"testing"
 	"time"
 )

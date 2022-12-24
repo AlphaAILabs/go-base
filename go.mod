@@ -1,4 +1,4 @@
-module github.com/deng00/go-base
+module github.com/CoinSummer/go-base
 
 go 1.15
 

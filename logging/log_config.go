@@ -1,7 +1,7 @@
 package logging
 
 import (
-	"github.com/deng00/go-base/config"
+	"github.com/CoinSummer/go-base/config"
 	"go.uber.org/zap/zapcore"
 )
 

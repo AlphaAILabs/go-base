@@ -2,7 +2,7 @@ package rocketmq
 
 import (
 	"fmt"
-	"github.com/deng00/go-base/mq"
+	"github.com/CoinSummer/go-base/mq"
 	"testing"
 	"time"
 )
