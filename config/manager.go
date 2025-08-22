@@ -3,7 +3,7 @@ package config
 import (
 	"errors"
 	"fmt"
-	"github.com/CoinSummer/go-base/service"
+	"github.com/AlphaAILabs/go-base/service"
 	"os"
 	"time"
 )

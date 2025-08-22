@@ -1,7 +1,7 @@
 package mockmq
 
 import (
-	"github.com/CoinSummer/go-base/mq"
+	"github.com/AlphaAILabs/go-base/mq"
 	"strings"
 	"time"
 )

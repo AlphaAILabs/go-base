@@ -3,7 +3,7 @@ package rocketmq
 import (
 	"context"
 	"fmt"
-	"github.com/CoinSummer/go-base/mq"
+	"github.com/AlphaAILabs/go-base/mq"
 	v2 "github.com/apache/rocketmq-client-go/v2"
 	"github.com/apache/rocketmq-client-go/v2/consumer"
 	"github.com/apache/rocketmq-client-go/v2/primitive"

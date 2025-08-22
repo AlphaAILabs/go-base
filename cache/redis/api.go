@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"github.com/CoinSummer/go-base/cache"
+	"github.com/AlphaAILabs/go-base/cache"
 	"github.com/go-redis/redis/v8"
 	"time"
 )
