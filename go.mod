@@ -10,6 +10,7 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/hashicorp/consul/api v1.4.0
 	github.com/jinzhu/gorm v1.9.16
+	github.com/lib/pq v1.10.4 // indirect
 	github.com/magiconair/properties v1.8.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/royeo/dingrobot v1.0.0
