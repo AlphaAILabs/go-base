@@ -33,6 +33,15 @@ func (c *Client) SetWithExpiration(key string, value interface{}, expiration tim
 	c.cache.Set(key, value, expiration)
 	return nil
 }
+
+func (c *Client) GetClient() *gocache.Cache {
+	return c.cache
+}
+
+func (c *Client) SetClient(client *gocache.Cache) {
+	c.cache = client
+}
+
 func New(defaultExpiration time.Duration) *Client {
 	c := gocache.New(defaultExpiration, defaultExpiration)
 	return &Client{cache: c}
